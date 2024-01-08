@@ -12,7 +12,7 @@ const connectDB = async () => {
     );
   } catch (error) {
     console.log("Error connecting to the database: ", error);
-    process.exit(1);
+    process.exit(1); //Typically used to indicate a general error or failure in the process.
   }
 };
 
